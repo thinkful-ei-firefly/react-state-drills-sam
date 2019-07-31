@@ -1,5 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Accordian testing renders nothing with no props 1`] = `
+<div
+  className="accordian"
+>
+  <ul />
+</div>
+`;
+
 exports[`Accordian testing renders this UI as expected 1`] = `
 <div
   className="accordian"

@@ -15,4 +15,8 @@ describe ('Accordian testing', () => {
     const tree=renderer.create(<Accordian sections={store}/>).toJSON();
     expect(tree).toMatchSnapshot();
   });
+  it ('renders nothing with no props', () => {
+    const tree=renderer.create(<Accordian />).toJSON();
+    expect(tree).toMatchSnapshot();
+  })
 });

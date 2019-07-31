@@ -13,14 +13,13 @@ class Accordian extends React.Component {
 
   handleClick = (itemKey) => {
     this.setState({openItem: itemKey})
-    console.log(itemKey);
   }
 
   render() {
     return (
       <div className='accordian'>
         <ul>
-          {this.props.sections.map((item, index) => { return (
+          {this.props.sections && this.props.sections.map((item, index) => { return (
             <li key={index}>
               <button onClick={()=>this.handleClick(index)}>{item.title}</button>
               <p>{this.state.openItem===index && item.content}</p>

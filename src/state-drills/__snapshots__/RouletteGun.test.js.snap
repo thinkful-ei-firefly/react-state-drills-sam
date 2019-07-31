@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RouletteGun testing renders this UI as expected 1`] = `
+<div
+  className="roulette-gun"
+>
+  <p>
+    you're safe!
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Pull the trigger!
+  </button>
+</div>
+`;

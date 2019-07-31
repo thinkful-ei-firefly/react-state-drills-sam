@@ -4,6 +4,7 @@ import Bomb from './state-drills/Bomb';
 import RouletteGun from './state-drills/RouletteGun';
 import './App.css';
 import Accordian from './state-drills/Accordian';
+import store from './state-drills/Accordian.store.js';
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <HelloWorld who='reader' />
       <Bomb />
       <RouletteGun />
-      <Accordian />
+      <Accordian sections={store}/>
     </div>
   );
 }

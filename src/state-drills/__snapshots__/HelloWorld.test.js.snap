@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HelloWorld testing renders this UI as expected 1`] = `
+<div
+  className="hello-world"
+>
+  <p>
+    Hello, 
+  </p>
+  <button
+    className="world"
+    onClick={[Function]}
+  >
+    World
+  </button>
+  <button
+    className="friend"
+    onClick={[Function]}
+  >
+    Friend
+  </button>
+  <button
+    className="react"
+    onClick={[Function]}
+  >
+    React
+  </button>
+</div>
+`;

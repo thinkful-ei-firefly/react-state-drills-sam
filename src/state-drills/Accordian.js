@@ -7,10 +7,6 @@ import React from 'react';
 // }]
 class Accordian extends React.Component {
 
-  static defaultProps = {
-    sections: [{title:'title1',content:'content1'}, {title:'title2',content:'content2'}]
-  }
-
   state = {
     openItem: null
   }

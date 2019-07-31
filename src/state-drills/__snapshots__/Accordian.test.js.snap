@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordian testing renders this UI as expected 1`] = `
+<div
+  className="accordian"
+>
+  <ul>
+    <li>
+      <button
+        onClick={[Function]}
+      >
+        Section 1
+      </button>
+      <p />
+    </li>
+    <li>
+      <button
+        onClick={[Function]}
+      >
+        Section 2
+      </button>
+      <p />
+    </li>
+    <li>
+      <button
+        onClick={[Function]}
+      >
+        Section 3
+      </button>
+      <p />
+    </li>
+  </ul>
+</div>
+`;

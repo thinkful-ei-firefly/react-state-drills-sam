@@ -1,18 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer'
-import Accordian from './Accordian';
-import store from './Accordian.store.js';
+import RouletteGun from './RouletteGun';
 
 
-describe ('Accordian testing', () => {
+describe ('RouletteGun testing', () => {
   it ('renders without crashing', () => {
     const div=document.createElement('div');
-    ReactDOM.render(<Accordian sections={store}/>, div);
+    ReactDOM.render(<RouletteGun />, div);
     ReactDOM.unmountComponentAtNode(div);
   });
   it ('renders this UI as expected', () => {
-    const tree=renderer.create(<Accordian sections={store}/>).toJSON();
+    const tree=renderer.create(<RouletteGun />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
